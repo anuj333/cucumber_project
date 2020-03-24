@@ -13,7 +13,7 @@ public class Testjava {
 public void loginnew() throws InterruptedException {
 	System.setProperty("webdriver.chrome.driver","D:\\Cucumber_project\\chromedriver.exe");
 	WebDriver driver = new ChromeDriver();
-	driver.get("https://www.facebook.com/");
+	driver.get("https://www.google.com/");
 	driver.manage().window().maximize();
 	
 	WebElement email= driver.findElement(By.xpath("//input[@id='email']"));
