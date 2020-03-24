@@ -1,5 +1,5 @@
 Feature: Cucumber testing
-@smoke @reg
+@smoke,@reg
 Scenario: Testing parameterization
 Given print without data
 Then print with data

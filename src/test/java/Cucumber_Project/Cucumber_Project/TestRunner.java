@@ -8,10 +8,10 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		
- features = "C:\\Users\\anuj.k.singh\\eclipse-workspace\\Cucumber_Project\\Features\\newfeature.feature"
+ features = "C:\\Users\\anuj.k.singh\\eclipse-workspace\\Cucumber_Project\\Features\\test.feature"
  ,
- glue={"stepdefenation"},
- tags= {"@smoke"}
+ glue={"stepdefenation"}
+ 
  
  ) 	
  
