@@ -11,9 +11,9 @@ import cucumber.api.junit.Cucumber;
  features = "C:\\Users\\anuj.k.singh\\eclipse-workspace\\Cucumber_Project\\Features\\test.feature"
  ,
  glue={"stepdefenation"}, 
- plugin = { "pretty", "json:target/cucumber-reports/Cucumber.json",
-		 "junit:target/cucumber-reports/Cucumber.xml",
-		 "html:target/cucumber-reports"},
+ plugin = { "pretty", "json:test-output/cucumber-reports/Cucumber.json",
+		 "junit:test-output/cucumber-reports/Cucumber.xml",
+		 "html:test-output/cucumber-reports"},
 		 monochrome = true
  
  
