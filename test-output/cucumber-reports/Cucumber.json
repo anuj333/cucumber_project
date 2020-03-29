@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 254100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforemethod()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "sucessful login",
+        "description": "",
+        "id": "login-action;sucessful-login",
+        "after": [
+          {
+            "result": {
+              "duration": 106800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Aftermethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20855721200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on home page",
+            "match": {
+              "location": "Step_defination.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1172151600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to login page",
+            "match": {
+              "location": "Step_defination.user_navigate_to_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 106149300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enters user id and pass",
+            "match": {
+              "location": "Step_defination.enters_user_id_and_pass()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98445300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "login sucessfully",
+            "match": {
+              "location": "Step_defination.login_sucessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login action",
+    "description": "",
+    "id": "login-action",
+    "keyword": "Feature",
+    "uri": "C:/Users/anuj.k.singh/eclipse-workspace/Cucumber_Project/Features/test.feature"
+  }
+]
